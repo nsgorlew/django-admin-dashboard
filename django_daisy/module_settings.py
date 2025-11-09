@@ -5,9 +5,9 @@ from django_daisy._helpers import ASSET_PATH
 
 # Define defaults for DAISY_SETTINGS
 DEFAULT_DAISY_SETTINGS = {
-    "SITE_TITLE": "Django Admin",
-    "SITE_HEADER": "Administration",
-    "INDEX_TITLE": "hi, welcome to your dashboard",
+    "SITE_TITLE": "Yönetim Paneli",
+    "SITE_HEADER": "Yönetim Paneli",
+    "INDEX_TITLE": "Yönetim Paneli'ye Hosş Geldiniz",
     "SITE_LOGO": f"{ASSET_PATH}admin/img/daisyui-logomark.svg",
     "EXTRA_STYLES": [],
     "EXTRA_SCRIPTS": [],
@@ -32,11 +32,11 @@ DEFAULT_DAISY_SETTINGS = {
     "APPS_REORDER": {
         "auth": {
             "icon": "fa-solid fa-person-military-pointing",
-            "name": _("Authentication"),
+            "name": _("Kimlik Doğrulama"),
             "hide": False,
             "app": "users",
             # 'priority': 1,  # higher value will appear on top items
-        },
+        }
     },
 }
 

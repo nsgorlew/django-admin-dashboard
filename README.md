@@ -128,9 +128,9 @@ Configure site-wide appearance and behavior:
 ```python
 DAISY_SETTINGS = {
     # Branding
-    'SITE_TITLE': 'Django Admin',
-    'SITE_HEADER': 'Administration',
-    'INDEX_TITLE': 'Hi, welcome to your dashboard',
+    'SITE_TITLE': 'İnşaat Yönetimi',
+    'SITE_HEADER': 'İnşaat Yönetimi',
+    'INDEX_TITLE': 'İnşaat Yönetimiye Hoş Geldiniz',
     'SITE_LOGO': '/static/admin/img/daisyui-logomark.svg',
     
     # Customization
@@ -323,8 +323,6 @@ Special thanks to [Cloud With Django](https://www.youtube.com/@CloudWithDjango) 
 
 ## 📄 License
 
-MIT License - see LICENSE file for details
+Proprietary
 
 ---
-
-**Made with ❤️ by the Django Daisy team**

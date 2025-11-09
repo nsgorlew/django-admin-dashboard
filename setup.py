@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 from setuptools_scm import get_version
 
 setup(
-    name='django-daisy',
+    name='django-admin-dashboard',
     version=get_version(),
     packages=find_packages(),
     use_scm_version=True,
@@ -13,13 +13,13 @@ setup(
     description='A modern django dashboard built with daisyui',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/hypy13/django-daisy',
-    author='Hossein Yaghoubi',
-    author_email='hossein.yaghoubi13@gmail.com',
-    license='Apache 2.0',
+    url='https://https://github.com/nsgorlew/django-admin-dashboard',
+    author='Nicholas Gorlewski',
+    author_email='nicholas.gorlewski@teknikoyazilimcozumleri.com',
+    license='Proprietary',
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: Apache Software License',
+        'License :: OSI Approved :: Proprietary Software License',
         'Operating System :: OS Independent',
     ],
 )
