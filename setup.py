@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 from setuptools_scm import get_version
 
 setup(
-    name='django-admin-dashboard',
+    name='django_admin_dashboard',
     version=get_version(),
     packages=find_packages(),
     use_scm_version=True,

@@ -7,7 +7,7 @@ from django_daisy._helpers import ASSET_PATH
 DEFAULT_DAISY_SETTINGS = {
     "SITE_TITLE": "Yönetim Paneli",
     "SITE_HEADER": "Yönetim Paneli",
-    "INDEX_TITLE": "Yönetim Paneli'ye Hosş Geldiniz",
+    "INDEX_TITLE": "Yönetim Paneli'ye Hoş Geldiniz",
     "SITE_LOGO": f"{ASSET_PATH}admin/img/daisyui-logomark.svg",
     "EXTRA_STYLES": [],
     "EXTRA_SCRIPTS": [],
